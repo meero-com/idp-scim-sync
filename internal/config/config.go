@@ -2,7 +2,7 @@ package config
 
 const (
 	// DefaultIsLambda is the progam execute as a lambda function?
-	DefaultIsLambda = false
+	DefaultIsLambda = true
 
 	// DefaultLogLevel is the default logging level.
 	// possible values: "debug", "info", "warn", "error", "fatal", "panic"
