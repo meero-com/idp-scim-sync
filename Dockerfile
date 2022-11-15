@@ -1,8 +1,8 @@
-ARG ARCH="amd64"
-FROM ${ARCH}/alpine
+# ARG ARCH="arm64"
+FROM alpine:3.16.2
 
 ARG OS="linux"
-ARG BIN_ARCH="amd64"
+ARG BIN_ARCH="arm64"
 
 ENV PROJECT_NAME="idp-scim-sync"
 ENV HOME="/app"
